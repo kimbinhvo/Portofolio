@@ -1,0 +1,111 @@
+body {
+    background-color:#111721;
+    color: white;
+}
+
+h1,h2,h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*NAV*/
+.justify-content-end {
+    background-color: #1a2333;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #68E8CD;
+}
+
+/* ABOUT */
+.about img {
+    height: 300px;
+}
+
+/* PROJECTS */ 
+
+.projects-container {
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.projects-container h1{
+    font-size: 32px;
+}
+
+.projects-container p{
+    font-size: 24px;
+    color: #68E8CD;
+    font-weight: 800;
+}
+
+
+.projects-container a{
+  color: white;
+}
+
+.projects-container a:hover{
+    color: #68E8CD;
+  }
+
+.project img {
+    max-height: 400px;
+    max-width: 400px;
+    background-color: rgb(56, 56, 56);
+    margin: auto;
+    border: 3px solid black;
+}
+
+#image:hover{
+    transform: scale(110%);
+    opacity: 0.9;
+    transition: 1s;
+ }
+
+.project {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 0px;
+    margin: 50px 0px;
+}
+
+.project p {
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+
+.project h2 {
+    font-size: 32px;
+}
+
+.link a {
+    margin: 0px 30px;
+    font-size: 20px;
+}
+
+.change p{
+    margin-bottom: 50px;
+    font-size: 16px;
+    color: black;
+    max-width: 80%;
+    margin: auto;
+    padding: 10px ;
+}
+
+
+/* EXPERIENCE / CONTACT*/ 
+.experience, .contact {
+    text-align: center;
+    max-width: 700px;
+}
+
+.experience .row,
+.contact .row {
+    margin-top: 25px;
+}
